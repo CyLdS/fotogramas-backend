@@ -2,13 +2,13 @@ import { Foto } from "./Foto"
 
 export class Usuario{
     constructor(
-        private nombreUsuario: string,
-        private email: string,
-        private password: string,
-        private fechaRegistro: string,
-        private fotoPerfil: string,
-        private seguidores: Usuario[],
-        private siguiendo: Usuario[],
-        private fotosSubidas: Foto[]
+        public nombreUsuario: string,
+        public email: string,
+        public password: string,
+        public fechaRegistro: string,
+        public fotoPerfil: string,
+        public seguidores: Usuario[],
+        public siguiendo: Usuario[],
+        public fotosSubidas: Foto[]
     ){}
 }
